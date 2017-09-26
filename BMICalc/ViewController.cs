@@ -28,6 +28,8 @@ namespace BMICalc
 
             var bmi = (kgweight / (mtrheight * mtrheight));
 
+            bmi = Math.Round(bmi, 2);
+
             bmiTextField.Text = bmi.ToString();
         }
 
